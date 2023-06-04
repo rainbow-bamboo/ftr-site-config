@@ -1,0 +1,12 @@
+title: //h1[contains(concat(' ',normalize-space(@class),' '),' entry-title ')]
+
+body: //div[@class='blog-item-inner-wrapper']
+
+author: //a[contains(concat(' ',normalize-space(@class),' '),' blog-author-name ')]
+date: //time
+
+tidy: no
+prune: no
+
+test_url: https://www.querenciapress.com/blog/9ynezz9g3fwht3paacyxh4lyf8txsz
+test_contains: I hope that readers who engage with this work generate their own interpretations, expanding the metaphor.
